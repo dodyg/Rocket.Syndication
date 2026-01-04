@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Test Podcast</title>
+    <link>https://example.com/podcast</link>
+    <description>A test podcast feed</description>
+    <language>en-us</language>
+    <itunes:author>Podcast Host</itunes:author>
+    <itunes:subtitle>The best test podcast</itunes:subtitle>
+    <itunes:summary>This is a longer summary of the podcast.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>Owner Name</itunes:name>
+      <itunes:email>owner@example.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="https://example.com/podcast-art.jpg"/>
+    <itunes:category text="Technology">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+    <itunes:category text="Education"/>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:keywords>tech, news, programming</itunes:keywords>
+    <item>
+      <title>Episode 1: Getting Started</title>
+      <link>https://example.com/podcast/ep1</link>
+      <description>The first episode of our podcast.</description>
+      <enclosure url="https://example.com/podcast/ep1.mp3" type="audio/mpeg" length="50000000"/>
+      <pubDate>Mon, 01 Jan 2024 08:00:00 GMT</pubDate>
+      <guid>https://example.com/podcast/ep1</guid>
+      <itunes:duration>1:30:45</itunes:duration>
+      <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:image href="https://example.com/podcast/ep1-art.jpg"/>
+    </item>
+    <item>
+      <title>Episode 2: Deep Dive</title>
+      <link>https://example.com/podcast/ep2</link>
+      <description>The second episode.</description>
+      <enclosure url="https://example.com/podcast/ep2.mp3" type="audio/mpeg" length="45000000"/>
+      <pubDate>Mon, 08 Jan 2024 08:00:00 GMT</pubDate>
+      <guid>https://example.com/podcast/ep2</guid>
+      <itunes:duration>45:30</itunes:duration>
+      <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
+    </item>
+  </channel>
+</rss>

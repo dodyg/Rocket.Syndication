@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell:*)",
+      "Bash(dotnet new:*)",
+      "Bash(cmd.exe /c \"cd /d d:\\\\github\\\\rss && dotnet new sln -n SyndicationClient\")",
+      "Bash(dotnet restore:*)",
+      "Bash(powershell.exe -Command \"dotnet build\")",
+      "Bash(Get-ChildItem -Path \"D:\\\\GitHub\\\\rss\" -Recurse -Name)",
+      "Bash(Select-Object -First 100)",
+      "Bash(dir:*)",
+      "Bash(powershell.exe -Command \"Set-Location D:\\\\github\\\\rss; dotnet test\")",
+      "Bash(cmd.exe /c \"cd /d D:\\\\github\\\\rss && dotnet test\")",
+      "Bash(/mnt/c/Windows/System32/cmd.exe /c \"cd /d D:\\\\github\\\\rss && dotnet test\")",
+      "Bash(tree:*)",
+      "Bash(dotnet test:*)",
+      "Bash(dotnet build:*)",
+      "Bash(dotnet format:*)"
+    ]
+  }
+}

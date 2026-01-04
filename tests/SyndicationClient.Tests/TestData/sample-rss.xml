@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+  <channel>
+    <title>Test RSS Feed</title>
+    <link>https://example.com</link>
+    <description>A test RSS feed for unit testing</description>
+    <language>en-us</language>
+    <copyright>Copyright 2024 Example</copyright>
+    <lastBuildDate>Mon, 01 Jan 2024 12:00:00 GMT</lastBuildDate>
+    <pubDate>Mon, 01 Jan 2024 10:00:00 GMT</pubDate>
+    <generator>Test Generator 1.0</generator>
+    <managingEditor>editor@example.com</managingEditor>
+    <webMaster>webmaster@example.com</webMaster>
+    <ttl>60</ttl>
+    <image>
+      <url>https://example.com/logo.png</url>
+      <title>Example Logo</title>
+      <link>https://example.com</link>
+      <width>144</width>
+      <height>144</height>
+    </image>
+    <category domain="tech">Technology</category>
+    <category>News</category>
+    <item>
+      <title>First Article</title>
+      <link>https://example.com/article/1</link>
+      <description>&lt;p&gt;This is the first article description.&lt;/p&gt;</description>
+      <content:encoded><![CDATA[<p>This is the <strong>full content</strong> of the first article.</p>]]></content:encoded>
+      <pubDate>Mon, 01 Jan 2024 09:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://example.com/article/1</guid>
+      <author>author@example.com</author>
+      <dc:creator>John Doe</dc:creator>
+      <category>Tech</category>
+      <category domain="topics">Programming</category>
+      <enclosure url="https://example.com/audio/1.mp3" type="audio/mpeg" length="12345678"/>
+      <media:content url="https://example.com/images/1.jpg" type="image/jpeg" medium="image" width="800" height="600"/>
+      <media:thumbnail url="https://example.com/images/1-thumb.jpg"/>
+      <comments>https://example.com/article/1#comments</comments>
+    </item>
+    <item>
+      <title>Second Article</title>
+      <link>https://example.com/article/2</link>
+      <description>Second article without GUID</description>
+      <pubDate>Sun, 31 Dec 2023 15:30:00 GMT</pubDate>
+      <dc:creator>Jane Smith</dc:creator>
+    </item>
+    <item>
+      <title>Third Article - Minimal</title>
+    </item>
+  </channel>
+</rss>
