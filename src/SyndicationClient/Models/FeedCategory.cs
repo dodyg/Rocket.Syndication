@@ -1,4 +1,4 @@
-namespace SyndicationClient.Models;
+namespace Rocket.Syndication.Models;
 
 /// <summary>
 /// Represents a category or tag associated with a feed or feed item.

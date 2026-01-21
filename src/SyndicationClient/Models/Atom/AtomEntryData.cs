@@ -1,4 +1,4 @@
-namespace SyndicationClient.Models.Atom;
+namespace Rocket.Syndication.Models.Atom;
 
 /// <summary>
 /// Contains Atom-specific entry data not captured in the unified model.

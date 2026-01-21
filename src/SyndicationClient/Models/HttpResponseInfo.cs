@@ -1,6 +1,6 @@
 using System.Net;
 
-namespace SyndicationClient.Models;
+namespace Rocket.Syndication.Models;
 
 /// <summary>
 /// Contains information about the HTTP response from a feed request.

@@ -1,4 +1,4 @@
-namespace SyndicationClient.Models;
+namespace Rocket.Syndication.Models;
 
 /// <summary>
 /// Represents a discovered feed link from an HTML page.

@@ -1,8 +1,8 @@
-using SyndicationClient.Models.Atom;
-using SyndicationClient.Models.Extensions;
-using SyndicationClient.Models.Rss;
+using Rocket.Syndication.Models.Atom;
+using Rocket.Syndication.Models.Extensions;
+using Rocket.Syndication.Models.Rss;
 
-namespace SyndicationClient.Models;
+namespace Rocket.Syndication.Models;
 
 /// <summary>
 /// Represents a unified syndication feed that normalizes RSS and Atom feeds.

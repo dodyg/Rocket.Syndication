@@ -1,7 +1,7 @@
 using FluentAssertions;
 using Microsoft.Extensions.Logging.Abstractions;
-using SyndicationClient.Models;
-using SyndicationClient.Parsing;
+using Rocket.Syndication.Models;
+using Rocket.Syndication.Parsing;
 
 namespace SyndicationClient.Tests.Unit.Parsing;
 

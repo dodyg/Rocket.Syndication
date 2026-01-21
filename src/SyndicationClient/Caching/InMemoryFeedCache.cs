@@ -1,6 +1,6 @@
 using System.Collections.Concurrent;
 
-namespace SyndicationClient.Caching;
+namespace Rocket.Syndication.Caching;
 
 /// <summary>
 /// In-memory implementation of the feed cache.

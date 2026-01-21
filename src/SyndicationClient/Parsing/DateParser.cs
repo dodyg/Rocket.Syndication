@@ -1,6 +1,6 @@
 using System.Globalization;
 
-namespace SyndicationClient.Parsing;
+namespace Rocket.Syndication.Parsing;
 
 /// <summary>
 /// Provides date parsing utilities for various feed date formats.

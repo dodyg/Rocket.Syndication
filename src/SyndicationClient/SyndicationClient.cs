@@ -1,11 +1,11 @@
 using Microsoft.Extensions.Logging;
-using SyndicationClient.Authentication;
-using SyndicationClient.Discovery;
-using SyndicationClient.Http;
-using SyndicationClient.Models;
-using SyndicationClient.Parsing;
+using Rocket.Syndication.Authentication;
+using Rocket.Syndication.Discovery;
+using Rocket.Syndication.Http;
+using Rocket.Syndication.Models;
+using Rocket.Syndication.Parsing;
 
-namespace SyndicationClient;
+namespace Rocket.Syndication;
 
 /// <summary>
 /// Default implementation of the syndication client.

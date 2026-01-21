@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>14.0</LangVersion>
+    <RootNamespace>Rocket.Syndication</RootNamespace>
+    
+    <!-- NuGet Package Metadata -->
+    <PackageId>SyndicationClient</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>SyndicationClient Contributors</Authors>
+    <Company>Rocket</Company>
+    <Product>Rocket.Syndication</Product>
+    <Description>A .NET library for consuming RSS and Atom feeds with full specification compliance, modern async patterns, and enterprise-ready features.</Description>
+    <PackageTags>rss;atom;feed;syndication;reader;xml;parser;async;netstandard</PackageTags>
+    <PackageProjectUrl>https://github.com/dodyg/Rocket.Syndication</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/dodyg/Rocket.Syndication</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Initial release with full RSS 2.0 and Atom 1.0 support.</PackageReleaseNotes>
+    <Copyright>Copyright (c) 2026 Rocket.Syndication Contributors</Copyright>
+    
+    <!-- Package Options -->
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+    <AssemblyTitle>Rocket.Syndication</AssemblyTitle>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Http" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Options" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="9.0.0" />
+    <PackageReference Include="Polly" Version="8.5.0" />
+    <PackageReference Include="Polly.Extensions.Http" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>

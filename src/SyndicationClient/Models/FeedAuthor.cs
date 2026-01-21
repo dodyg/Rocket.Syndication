@@ -1,4 +1,4 @@
-namespace SyndicationClient.Models;
+namespace Rocket.Syndication.Models;
 
 /// <summary>
 /// Represents an author of a feed or feed item.

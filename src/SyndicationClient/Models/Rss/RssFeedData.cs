@@ -1,4 +1,4 @@
-namespace SyndicationClient.Models.Rss;
+namespace Rocket.Syndication.Models.Rss;
 
 /// <summary>
 /// Contains RSS-specific feed data not captured in the unified model.

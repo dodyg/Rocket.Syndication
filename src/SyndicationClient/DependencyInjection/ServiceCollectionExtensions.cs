@@ -3,13 +3,13 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Options;
 using Polly;
 using Polly.Extensions.Http;
-using SyndicationClient.Caching;
-using SyndicationClient.Discovery;
-using SyndicationClient.Http;
-using SyndicationClient.Models;
-using SyndicationClient.Parsing;
+using Rocket.Syndication.Caching;
+using Rocket.Syndication.Discovery;
+using Rocket.Syndication.Http;
+using Rocket.Syndication.Models;
+using Rocket.Syndication.Parsing;
 
-namespace SyndicationClient.DependencyInjection;
+namespace Rocket.Syndication.DependencyInjection;
 
 /// <summary>
 /// Extension methods for registering syndication client services.

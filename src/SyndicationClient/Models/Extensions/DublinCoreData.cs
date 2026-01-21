@@ -1,4 +1,4 @@
-namespace SyndicationClient.Models.Extensions;
+namespace Rocket.Syndication.Models.Extensions;
 
 /// <summary>
 /// Contains Dublin Core metadata extension data.

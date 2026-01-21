@@ -1,4 +1,4 @@
-namespace SyndicationClient.Models;
+namespace Rocket.Syndication.Models;
 
 /// <summary>
 /// Represents the content of a feed item with both HTML and plain text versions.

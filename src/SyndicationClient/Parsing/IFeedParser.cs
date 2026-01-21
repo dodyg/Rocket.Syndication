@@ -1,7 +1,7 @@
 using System.Xml.Linq;
-using SyndicationClient.Models;
+using Rocket.Syndication.Models;
 
-namespace SyndicationClient.Parsing;
+namespace Rocket.Syndication.Parsing;
 
 /// <summary>
 /// Defines the contract for a feed parser.

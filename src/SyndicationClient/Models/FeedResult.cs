@@ -1,4 +1,4 @@
-namespace SyndicationClient.Models;
+namespace Rocket.Syndication.Models;
 
 /// <summary>
 /// Represents the result of a feed operation.

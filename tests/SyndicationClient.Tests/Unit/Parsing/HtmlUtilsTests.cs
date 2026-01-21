@@ -1,5 +1,5 @@
 using FluentAssertions;
-using SyndicationClient.Parsing;
+using Rocket.Syndication.Parsing;
 
 namespace SyndicationClient.Tests.Unit.Parsing;
 

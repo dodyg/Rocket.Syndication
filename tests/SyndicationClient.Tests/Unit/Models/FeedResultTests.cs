@@ -1,6 +1,6 @@
 using System.Net;
 using FluentAssertions;
-using SyndicationClient.Models;
+using Rocket.Syndication.Models;
 
 namespace SyndicationClient.Tests.Unit.Models;
 

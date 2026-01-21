@@ -1,6 +1,6 @@
 using System.Xml.Linq;
 
-namespace SyndicationClient.Parsing;
+namespace Rocket.Syndication.Parsing;
 
 /// <summary>
 /// Contains XML namespace definitions used in feed parsing.

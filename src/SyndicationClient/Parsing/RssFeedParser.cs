@@ -1,9 +1,9 @@
 using System.Xml.Linq;
-using SyndicationClient.Models;
-using SyndicationClient.Models.Extensions;
-using SyndicationClient.Models.Rss;
+using Rocket.Syndication.Models;
+using Rocket.Syndication.Models.Extensions;
+using Rocket.Syndication.Models.Rss;
 
-namespace SyndicationClient.Parsing;
+namespace Rocket.Syndication.Parsing;
 
 /// <summary>
 /// Parser for RSS 2.0 feeds.

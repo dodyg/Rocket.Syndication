@@ -1,9 +1,9 @@
 using System.Xml.Linq;
-using SyndicationClient.Models;
-using SyndicationClient.Models.Atom;
-using SyndicationClient.Models.Extensions;
+using Rocket.Syndication.Models;
+using Rocket.Syndication.Models.Atom;
+using Rocket.Syndication.Models.Extensions;
 
-namespace SyndicationClient.Parsing;
+namespace Rocket.Syndication.Parsing;
 
 /// <summary>
 /// Parser for Atom feeds.

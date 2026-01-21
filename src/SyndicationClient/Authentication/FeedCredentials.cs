@@ -1,6 +1,6 @@
-using SyndicationClient.Models;
+using Rocket.Syndication.Models;
 
-namespace SyndicationClient.Authentication;
+namespace Rocket.Syndication.Authentication;
 
 /// <summary>
 /// Represents credentials for authenticated feed requests.

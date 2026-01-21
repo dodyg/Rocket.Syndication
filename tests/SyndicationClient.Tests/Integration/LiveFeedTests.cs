@@ -1,7 +1,8 @@
 using FluentAssertions;
 using Microsoft.Extensions.DependencyInjection;
-using SyndicationClient.DependencyInjection;
-using SyndicationClient.Models;
+using Rocket.Syndication;
+using Rocket.Syndication.DependencyInjection;
+using Rocket.Syndication.Models;
 
 namespace SyndicationClient.Tests.Integration;
 

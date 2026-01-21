@@ -1,8 +1,8 @@
 using System.Text.RegularExpressions;
 using Microsoft.Extensions.Logging;
-using SyndicationClient.Models;
+using Rocket.Syndication.Models;
 
-namespace SyndicationClient.Discovery;
+namespace Rocket.Syndication.Discovery;
 
 /// <summary>
 /// Service for discovering feed URLs from HTML pages.

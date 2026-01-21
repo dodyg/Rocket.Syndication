@@ -1,7 +1,7 @@
-using SyndicationClient.Authentication;
-using SyndicationClient.Models;
+using Rocket.Syndication.Authentication;
+using Rocket.Syndication.Models;
 
-namespace SyndicationClient;
+namespace Rocket.Syndication;
 
 /// <summary>
 /// Defines the contract for a syndication feed client.

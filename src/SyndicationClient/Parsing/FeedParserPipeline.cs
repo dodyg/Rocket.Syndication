@@ -1,8 +1,8 @@
 using System.Xml.Linq;
 using Microsoft.Extensions.Logging;
-using SyndicationClient.Models;
+using Rocket.Syndication.Models;
 
-namespace SyndicationClient.Parsing;
+namespace Rocket.Syndication.Parsing;
 
 /// <summary>
 /// Manages a pipeline of feed parsers and selects the appropriate one for a document.

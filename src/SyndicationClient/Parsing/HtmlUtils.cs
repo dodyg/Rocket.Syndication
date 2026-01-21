@@ -1,7 +1,7 @@
 using System.Text.RegularExpressions;
 using System.Web;
 
-namespace SyndicationClient.Parsing;
+namespace Rocket.Syndication.Parsing;
 
 /// <summary>
 /// Provides utility methods for HTML processing.

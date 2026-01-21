@@ -3,11 +3,11 @@ using System.Net.Http.Headers;
 using System.Text;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using SyndicationClient.Authentication;
-using SyndicationClient.Caching;
-using SyndicationClient.Models;
+using Rocket.Syndication.Authentication;
+using Rocket.Syndication.Caching;
+using Rocket.Syndication.Models;
 
-namespace SyndicationClient.Http;
+namespace Rocket.Syndication.Http;
 
 /// <summary>
 /// HTTP client for fetching feed content with caching support.

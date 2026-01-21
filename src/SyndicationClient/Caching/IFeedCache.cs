@@ -1,6 +1,6 @@
-using SyndicationClient.Models;
+using Rocket.Syndication.Models;
 
-namespace SyndicationClient.Caching;
+namespace Rocket.Syndication.Caching;
 
 /// <summary>
 /// Defines the contract for a feed cache.
