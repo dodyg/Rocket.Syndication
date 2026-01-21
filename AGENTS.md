@@ -72,6 +72,8 @@ After any code changes:
 - **Microsoft.Extensions.DependencyInjection.Abstractions** - DI abstractions
 - **Polly** (v8.5.0) - Resilience policies
 
+Always use the latest version of each library that is compatible with .NET 10.
+
 ## Technical Specifications
 
 - Refer to `SPEC-RSS.md` for RSS/Atom feed specification details
