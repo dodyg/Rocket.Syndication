@@ -1,16 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>14.0</LangVersion>
-    <RootNamespace>SyndicationClient</RootNamespace>
+    <RootNamespace>Rocket.Syndication</RootNamespace>
     
     <!-- NuGet Package Metadata -->
-    <PackageId>SyndicationClient</PackageId>
+    <PackageId>Rocket.Syndication</PackageId>
     <Version>1.0.0</Version>
-    <Authors>SyndicationClient Contributors</Authors>
+    <Authors>Rocket.Syndication Contributors</Authors>
     <Company>Rocket</Company>
     <Product>Rocket.Syndication</Product>
     <Description>A .NET library for consuming RSS and Atom feeds with full specification compliance, modern async patterns, and enterprise-ready features.</Description>
@@ -30,6 +30,7 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <ContinuousIntegrationBuild Condition="'$(CI)' == 'true'">true</ContinuousIntegrationBuild>
+    <AssemblyTitle>Rocket.Syndication</AssemblyTitle>
   </PropertyGroup>
   
   <ItemGroup>

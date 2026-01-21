@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/Rocket.Syndication/Rocket.Syndication.csproj" />
+  <Project Path="tests/Rocket.Syndication.Tests/Rocket.Syndication.Tests.csproj" />
+</Solution>

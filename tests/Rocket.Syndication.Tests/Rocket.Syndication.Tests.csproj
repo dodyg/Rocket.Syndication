@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\SyndicationClient\SyndicationClient.csproj" />
+    <ProjectReference Include="..\..\src\Rocket.Syndication\Rocket.Syndication.csproj" />
   </ItemGroup>
 
   <ItemGroup>

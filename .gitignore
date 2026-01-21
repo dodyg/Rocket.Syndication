@@ -54,8 +54,6 @@ TestResult.xml
 nunit-*.xml
 
 # vs
-.vs/
-.vscode/
+.vs
+.vscode
 
-# Tests
-TestResults
