@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\Rocket.Syndication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2AE6AB6-1598-A7EF-D058-6AC1F89DFDE0}|tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj|d:\\github\\rocket.syndication\\tests\\syndicationclient.tests\\syndicationclient.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{F2AE6AB6-1598-A7EF-D058-6AC1F89DFDE0}|tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj|solutionrelative:tests\\syndicationclient.tests\\syndicationclient.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2AE6AB6-1598-A7EF-D058-6AC1F89DFDE0}|tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj|d:\\github\\rocket.syndication\\tests\\syndicationclient.tests\\unit\\parsing\\atomfeedparsertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2AE6AB6-1598-A7EF-D058-6AC1F89DFDE0}|tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj|solutionrelative:tests\\syndicationclient.tests\\unit\\parsing\\atomfeedparsertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2AE6AB6-1598-A7EF-D058-6AC1F89DFDE0}|tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj|d:\\github\\rocket.syndication\\tests\\syndicationclient.tests\\integration\\livefeedtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2AE6AB6-1598-A7EF-D058-6AC1F89DFDE0}|tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj|solutionrelative:tests\\syndicationclient.tests\\integration\\livefeedtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2AE6AB6-1598-A7EF-D058-6AC1F89DFDE0}|tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj|d:\\github\\rocket.syndication\\tests\\syndicationclient.tests\\unit\\models\\feedresulttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2AE6AB6-1598-A7EF-D058-6AC1F89DFDE0}|tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj|solutionrelative:tests\\syndicationclient.tests\\unit\\models\\feedresulttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2AE6AB6-1598-A7EF-D058-6AC1F89DFDE0}|tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj|d:\\github\\rocket.syndication\\tests\\syndicationclient.tests\\integration\\livefeedtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2AE6AB6-1598-A7EF-D058-6AC1F89DFDE0}|tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj|solutionrelative:tests\\syndicationclient.tests\\integration\\livefeedtests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2AE6AB6-1598-A7EF-D058-6AC1F89DFDE0}|tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj|d:\\github\\rocket.syndication\\tests\\syndicationclient.tests\\unit\\parsing\\atomfeedparsertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2AE6AB6-1598-A7EF-D058-6AC1F89DFDE0}|tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj|solutionrelative:tests\\syndicationclient.tests\\unit\\parsing\\atomfeedparsertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2AE6AB6-1598-A7EF-D058-6AC1F89DFDE0}|tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj|d:\\github\\rocket.syndication\\tests\\syndicationclient.tests\\syndicationclient.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F2AE6AB6-1598-A7EF-D058-6AC1F89DFDE0}|tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj|solutionrelative:tests\\syndicationclient.tests\\syndicationclient.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -51,52 +51,54 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FeedResultTests.cs",
+              "DocumentMoniker": "D:\\GitHub\\Rocket.Syndication\\tests\\SyndicationClient.Tests\\Unit\\Models\\FeedResultTests.cs",
+              "RelativeDocumentMoniker": "tests\\SyndicationClient.Tests\\Unit\\Models\\FeedResultTests.cs",
+              "ToolTip": "D:\\GitHub\\Rocket.Syndication\\tests\\SyndicationClient.Tests\\Unit\\Models\\FeedResultTests.cs",
+              "RelativeToolTip": "tests\\SyndicationClient.Tests\\Unit\\Models\\FeedResultTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-21T14:44:38.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "AtomFeedParserTests.cs",
               "DocumentMoniker": "D:\\GitHub\\Rocket.Syndication\\tests\\SyndicationClient.Tests\\Unit\\Parsing\\AtomFeedParserTests.cs",
               "RelativeDocumentMoniker": "tests\\SyndicationClient.Tests\\Unit\\Parsing\\AtomFeedParserTests.cs",
               "ToolTip": "D:\\GitHub\\Rocket.Syndication\\tests\\SyndicationClient.Tests\\Unit\\Parsing\\AtomFeedParserTests.cs",
               "RelativeToolTip": "tests\\SyndicationClient.Tests\\Unit\\Parsing\\AtomFeedParserTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAIwAUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-21T14:20:40.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FeedResultTests.cs",
-              "DocumentMoniker": "D:\\GitHub\\Rocket.Syndication\\tests\\SyndicationClient.Tests\\Unit\\Models\\FeedResultTests.cs",
-              "RelativeDocumentMoniker": "tests\\SyndicationClient.Tests\\Unit\\Models\\FeedResultTests.cs",
-              "ToolTip": "D:\\GitHub\\Rocket.Syndication\\tests\\SyndicationClient.Tests\\Unit\\Models\\FeedResultTests.cs",
-              "RelativeToolTip": "tests\\SyndicationClient.Tests\\Unit\\Models\\FeedResultTests.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T14:20:28.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "SyndicationClient.Tests.csproj",
               "DocumentMoniker": "D:\\GitHub\\Rocket.Syndication\\tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj",
               "RelativeDocumentMoniker": "tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj",
               "ToolTip": "D:\\GitHub\\Rocket.Syndication\\tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj",
               "RelativeToolTip": "tests\\SyndicationClient.Tests\\SyndicationClient.Tests.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2026-01-21T14:18:04.717Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "LiveFeedTests.cs",
               "DocumentMoniker": "D:\\GitHub\\Rocket.Syndication\\tests\\SyndicationClient.Tests\\Integration\\LiveFeedTests.cs",
               "RelativeDocumentMoniker": "tests\\SyndicationClient.Tests\\Integration\\LiveFeedTests.cs",
               "ToolTip": "D:\\GitHub\\Rocket.Syndication\\tests\\SyndicationClient.Tests\\Integration\\LiveFeedTests.cs",
               "RelativeToolTip": "tests\\SyndicationClient.Tests\\Integration\\LiveFeedTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-21T14:17:51.392Z"
+              "WhenOpened": "2026-01-21T14:17:51.392Z",
+              "EditorCaption": ""
             }
           ]
         },

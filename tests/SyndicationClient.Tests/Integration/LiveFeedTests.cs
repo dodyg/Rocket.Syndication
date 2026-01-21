@@ -11,7 +11,7 @@ public class LiveFeedTests
     private ServiceProvider _provider = null!;
     private ISyndicationClient _client = null!;
 
-    [Before(Test)]
+    [Before(HookType.Test)]
     public void Setup()
     {
         var services = new ServiceCollection();
@@ -25,7 +25,7 @@ public class LiveFeedTests
         _client = _provider.GetRequiredService<ISyndicationClient>();
     }
 
-    [After(Test)]
+    [After(HookType.Test)]
     public void Cleanup()
     {
         _provider?.Dispose();
