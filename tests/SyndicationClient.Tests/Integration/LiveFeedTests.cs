@@ -11,7 +11,7 @@ public class LiveFeedTests
     private ServiceProvider _provider = null!;
     private ISyndicationClient _client = null!;
 
-    [Before(HookType.Test)]
+    [Before(Test)]
     public void Setup()
     {
         var services = new ServiceCollection();
@@ -25,7 +25,7 @@ public class LiveFeedTests
         _client = _provider.GetRequiredService<ISyndicationClient>();
     }
 
-    [After(HookType.Test)]
+    [After(Test)]
     public void Cleanup()
     {
         _provider?.Dispose();
@@ -81,8 +81,9 @@ public class LiveFeedTests
     [Test]
     public async Task GetFeedAsync_NotFoundUrl_ReturnsError(CancellationToken cancellationToken)
     {
-        var result = await _client.GetFeedAsync("https://httpstat.us/404", cancellationToken);
+        var result = await _client.GetFeedAsync("http://scripting.com/xx", cancellationToken);
 
+        Console.WriteLine(result.Error?.Message);
         result.IsSuccess.Should().BeFalse();
         result.Error.Should().NotBeNull();
         result.Error!.Type.Should().Be(FeedErrorType.NotFound);
