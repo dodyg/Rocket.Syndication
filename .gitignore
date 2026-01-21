@@ -58,3 +58,5 @@ nunit-*.xml
 .vscode
 
 src/Rocket.Syndication/publish.sh
+/.vs
+/.vscode
