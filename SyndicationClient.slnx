@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/SyndicationClient/SyndicationClient.csproj" />
+  <Project Path="tests/SyndicationClient.Tests/SyndicationClient.Tests.csproj" />
+</Solution>

@@ -8,6 +8,7 @@ namespace SyndicationClient.Tests.Integration;
 [Category("Integration")]
 public class LiveFeedTests
 {
+    private ServiceProvider _provider = null!;
     private ISyndicationClient _client = null!;
 
     [Before(Test)]
@@ -20,8 +21,14 @@ public class LiveFeedTests
             options.Timeout = TimeSpan.FromSeconds(30);
         });
 
-        var provider = services.BuildServiceProvider();
-        _client = provider.GetRequiredService<ISyndicationClient>();
+        _provider = services.BuildServiceProvider();
+        _client = _provider.GetRequiredService<ISyndicationClient>();
+    }
+
+    [After(Test)]
+    public void Cleanup()
+    {
+        _provider?.Dispose();
     }
 
     [Test]
